@@ -1,0 +1,53 @@
+body{
+    color: #202124;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+}
+.signup{
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto;
+    position: relative;
+    padding:50px;
+    width: 400px;
+}
+.signup img{
+    width: 70px;
+    position: absolute;
+    left: 43%;top: 5%;
+}
+.signup h2{
+    text-align: center;
+  line-height: 80%;
+    font-weight: 400;
+}
+.signup .acc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+#outlined-basic
+{
+    gap:10px;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#1a73e8;
+}
+.forget{
+margin-top: 20px;
+}
+p{
+    margin-top: 25px;
+    color: #5f6368;
+    font-size: 14px;
+}
+.signupfooter
+{
+    display: flex;
+    margin-top:25px;
+    flex-direction: row;
+    justify-content: space-between;
+}
